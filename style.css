@@ -1,0 +1,38 @@
+body{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.window {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.window input{
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    width: 150px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button{
+    padding: 5px 10px;
+    width: 200px;
+    margin: 25px 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
